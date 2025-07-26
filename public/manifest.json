@@ -3,8 +3,8 @@
     "short_name": "OPS",
     "start_url": ".",
     "display": "standalone",
+    "theme_color": "#AD4E26",
     "background_color": "#ffffff",
-    "theme_color": "#2d89ef",
     "description": "The 361 Ops Centre is a platform for managing and monitoring the MFI's banking operations",
     "icons": [
       {
