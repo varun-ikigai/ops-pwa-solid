@@ -1,6 +1,7 @@
 // @refresh reload
 import { createHandler, StartServer } from "@solidjs/start/server";
 
+
 export default createHandler(() => (
   <StartServer
     document={({ assets, children, scripts }) => (
@@ -9,8 +10,8 @@ export default createHandler(() => (
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="manifest" href="/manifest.json" />
           <title>361 Ops Centre</title>
+          <link rel="manifest" href="/manifest.json" />
           {assets}
         </head>
         <body>
